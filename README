@@ -1,0 +1,43 @@
+# ERP System: **[Nombre de tu ERP]**
+
+## Descripción
+Este proyecto es un Sistema de Planificación de Recursos Empresariales (ERP) diseñado para optimizar la gestión de usuarios, tareas, incidencias, reportes y más. Está construido con **TypeScript**, **Express.js**, y sigue principios de **Domain-Driven Design (DDD)** y arquitectura limpia.
+
+## Características
+- **Gestión de Usuarios y Roles**: Controla accesos y permisos.
+- **Autenticación Segura**: Registro, inicio de sesión, y recuperación de contraseñas con **JWT**.
+- **Gestión de Tareas**: Crea, asigna y controla tareas.
+- **Módulo de Incidencias**: Registra y da seguimiento a problemas dentro de la empresa.
+- **Reportes y Dashboard**: Genera reportes y visualiza métricas clave.
+- **Configuración Personalizable**: Cambia temas, idioma, y más.
+
+## Tecnologías
+- **Backend**: Node.js, Express.js, TypeScript
+- **Frontend**: Vue js, NuxtJS
+- **Base de Datos**: PostgreSQL
+- **ORM**: Prisma
+- **Autenticación**: JSON Web Tokens (JWT)
+- **Pruebas**: Jest
+- **Otros**: BullMQ (para tareas programadas), dotenv (manejo de variables de entorno)
+
+---
+
+## Instalación
+Sigue estos pasos para configurar el proyecto localmente:
+
+### Requisitos previos
+- **Node.js** (versión v20.5.1)
+- **npm** (version 9.8.0)
+- **PostgreSQL**
+- **Git**
+
+### Pasos
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/tu-usuario/tu-repositorio.git
+   cd tu-repositorio
+   npm install
+
+
+#Participantes
+1. Kevin Aron Tapia Cruz
